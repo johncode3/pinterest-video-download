@@ -23,6 +23,11 @@ Open the app in your browser:
 
 http://127.0.0.1:5000
 
+## Screenshots
+
+![Main screen](screenshots/Full%20View.PNG)
+![Download progress in MB](screenshots/Download%20with%20progress%20and%20size%20in%20MB.PNG)
+
 ## Files
 - [app.py](app.py): backend API + downloader
 - [index.html](index.html): UI
