@@ -1,0 +1,14 @@
+/.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+env.bak/
+build/
+dist/
+downloads/
+.vscode/
+.pytest_cache/
+*.log

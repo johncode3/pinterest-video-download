@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Video Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1 class="title">Pinterest Video Downloader</h1>
+        <p class="description">Paste a Pinterest video link and download it.</p>
+        <p class="instructions">Enter the Pinterest video URL below:</p>
+        
+        <div class="container">
+            <label for="videoUrl" class="visually-hidden">Pinterest URL</label>
+            <input type="text" id="videoUrl" placeholder="Enter Pinterest URL here" class="input-field">
+            <input type="text" id="filename" placeholder="Enter filename (optional)" class="input-field">
+            <button id="downloadBtn" class="btn-download" disabled aria-label="Download video">Download Video</button>
+        </div>
+        <div class="progress-wrap" aria-live="polite">
+            <progress id="progress" class="progress" value="0" max="100"></progress>
+            <span id="progressText" class="progress-text">0%</span>
+        </div>
+        <div id="status" class="status" aria-live="polite"></div>
+        <button id="againBtn" class="btn-secondary" type="button" hidden>Download Another</button>
+        <p class="footer">Created by <a href="https://github.com/johncode3" target="_blank">JohnCod3</a></p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
