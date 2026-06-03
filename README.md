@@ -38,3 +38,7 @@ http://127.0.0.1:5000
 ## Notes
 - Do not commit .venv or downloads. They are already ignored.
 - If a pin has no audio, the downloaded file will also be silent.
+
+## Shortcut
+- You can also run the app with the provided `run.bat` file, which will set up the virtual environment and start the server for you. Just double-click it!
+- Or you can create shortcut of bat file into your desktop to easy for opening the app.
