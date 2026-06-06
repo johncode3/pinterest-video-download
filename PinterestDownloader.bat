@@ -1,6 +1,6 @@
 @echo off
 setlocal
-cd /d "C:\Users\HP\OneDrive - Build Bright University\Desktop\Pinterest Video Download" || (echo Failed to change directory & pause & exit /b 1)
+cd /d "%~dp0" || (echo Failed to change directory & pause & exit /b 1)
 
 set "VENV_PY=.venv\Scripts\python.exe"
 if not exist "%VENV_PY%" (
